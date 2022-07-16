@@ -18,6 +18,7 @@ This project is a web app where an emergency worker can input a new message that
 The file structure for the project with descriptions are shown below:
 
 app
+
 | - template
 
 | |- master.html # main page of web app

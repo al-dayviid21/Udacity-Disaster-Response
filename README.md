@@ -16,19 +16,32 @@ This project is a web app where an emergency worker can input a new message that
 
 ## File Descriptions
 The file structure for the project with descriptions are shown below:
+
 app
 | - template
+
 | |- master.html # main page of web app
+
 | |- go.html # classification result page of web app
+
 |- run.py # Flask file that runs app
+
 data
+
 |- disaster_categories.csv # data to process
+
 |- disaster_messages.csv # data to process
-|- process_data.py
-|- InsertDatabaseName.db # database to save clean data to
+
+|- process_data.py # Python file that processes the data
+
+|- DisasterResponse.db # database to save clean data to
+
 models
-|- train_classifier.py
+
+|- train_classifier.py # Python file that trains and evaluates the model
+
 |- classifier.pkl # saved model
+
 README.md
 
 ## Instructions

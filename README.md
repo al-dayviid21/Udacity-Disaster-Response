@@ -17,31 +17,33 @@ This project is a web app where an emergency worker can input a new message that
 ## File Descriptions
 The file structure for the project with descriptions are shown below:
 
-app
+Udacity-Disaster-Response
 
-| - template
+| - app
 
-| |- master.html # main page of web app
+| |- template
 
-| |- go.html # classification result page of web app
+| | |- master.html # main page of web app
 
-|- run.py # Flask file that runs app
+| | |- go.html # classification result page of web app
 
-data
+| |- run.py # Flask file that runs app
 
-|- disaster_categories.csv # data to process
+| - data
 
-|- disaster_messages.csv # data to process
+| |- disaster_categories.csv # data to process
 
-|- process_data.py # Python file that processes the data
+| |- disaster_messages.csv # data to process
 
-|- DisasterResponse.db # database to save clean data to
+| |- process_data.py # Python file that processes the data
 
-models
+| |- DisasterResponse.db # database to save clean data to
 
-|- train_classifier.py # Python file that trains and evaluates the model
+| - models
 
-|- classifier.pkl # saved model
+| |- train_classifier.py # Python file that trains and evaluates the model
+
+| |- classifier.pkl # saved model
 
 README.md
 
